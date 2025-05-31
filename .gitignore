@@ -1,0 +1,40 @@
+# node modules (librerías instaladas)
+node_modules/
+
+# producción
+dist/
+build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# directorios de sistema
+.DS_Store
+Thumbs.db
+
+# entorno
+.env
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+
+# archivos temporales del sistema operativo
+*.swp
+*.swo
+
+# cache
+.cache/
+vite.cache/
+.eslintcache
+
+# tests
+coverage/
+
+# archivo de lock de yarn o pnpm (si usas solo npm)
+yarn.lock
+pnpm-lock.yaml
